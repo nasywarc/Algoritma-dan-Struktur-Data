@@ -31,7 +31,6 @@ struct CircularSingleLinkedList {
 		}
 	}
 	void sisipDataDiAkhir(int data) {
-		// lengkapi bagian ini
 		NodeCSLL* pBaru = new NodeCSLL();
 		pBaru->data = data;
 		pBaru->setelah = pBaru;
@@ -80,7 +79,6 @@ struct CircularSingleLinkedList {
 		}
 	}
 	void hapusSatuDataDiAwal() {
-		// lengkapi bagian ini
 		if (pAwal == nullptr) {
 			cout << "List kosong" << endl;
 		}
@@ -99,7 +97,6 @@ struct CircularSingleLinkedList {
 		}
 	}
 	void hapusSatuDataDiAkhir() {
-		// lengkapi bagian ini
 		if (pAwal == nullptr) {
 			cout << "List kosong" << endl;
 		}
