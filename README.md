@@ -1,2 +1,2 @@
 # Algoritma-dan-Struktur-Data
-data structures and algorithm class doumentation
+data structures and algorithm class documentation
